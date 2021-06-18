@@ -14,9 +14,9 @@ I find it easiest to create this file on the fly as you are creating a Jupyter n
 
 Now - when you want to hyperlink a Markdown header within a Jupyter notebook, it needs to be formatted in a Markdown cell as:
 
-- "- [Level 1](# Level 1)"
-- "   - [Level 2](# Level 2)"
-- "       - [Level 3](# Level 3)"
+- "- [Level 1](#-Level-1)"
+- "   - [Level 2](#-Level-2)"
+- "       - [Level 3](#-Level-3)"
 
 The script will create an output file that takes each of the headers from the file previously mentioned, and formats them into the hyperlink friendly format.
 
