@@ -1,5 +1,5 @@
-# automation-scripts
-A repository that contains various automation scripts I've written.
+# Python Things
+A repository that contains various python scripts I've written.
 
 # Contents
 1. Markdown Table of Contents Generator
