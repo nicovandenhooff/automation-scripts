@@ -1,25 +1,6 @@
-#       Script: FileRenamer.py
-#       Author: Nico Van den Hooff
-#  Last update: September 11, 2021
-#
-#      Purpose: A simple script that allows a user to rename all of the items
-#               in a directory.
-
-# How it works: 1. Run the python script from the command line with the
-#                  directory name as a command line argument (*)
-#               2. Enter "y" or "n" for confirming each individual rename
-#               3. Enter "y" or "n" for enumerating the new names (**)
-#               4. Renames are performed and rename report is printed
-#               5. Enter "y" or "n" to process another directory
-#               6. If "y" was entered in 5 above, enter the next directory
-#                  and steps are repeated from 2 onwards.  This loop continues
-#                  until the user enters "n" in step 5.
-#
-#       Notes: (*) If the directory name has any spaces in it, ensure to enclose
-#                  the name within quotes " " at the command line.
-#             (**) If names are enumerated, the list of names is sorted first
-#                  alphabetically then enumerated.  The enumeration starts at
-#                  "00", "01", "02", ..., "##...".
+#  renamer.py
+#  author: Nico Van den Hooff
+#  last update: September 11, 2021
 
 import os
 import sys
