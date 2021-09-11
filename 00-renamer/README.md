@@ -26,7 +26,7 @@ File and folders will be reformatted to contain all lower case letters, and use 
 
 Let's say you have a directory: `/Desktop/files/` that contains the following files:
 
-```shell
+```
 TeST_file.pdf
 A FiLE 1 2 3.docx
 aN EXCEL fILE.xlsx
@@ -34,8 +34,8 @@ aN EXCEL fILE.xlsx
 
 You can then use the script as follows:
 
-```shell
-$ python Renamer.py /Desktop/files/
+```
+$ python renamer.py /Desktop/files/
 Confirm directory path is correct (y/n): y
 Confirm each individual rename? (y/n): n
 Enumerate new file names? (y/n): n
@@ -53,7 +53,7 @@ PROGRAM TERMINATED
 
 The files in `/Desktop/files/` are now renamed to:
 
-```shell
+```
 test-file.pdf
 a-file-1-2-3.docx
 an-excel-file.xlsx
