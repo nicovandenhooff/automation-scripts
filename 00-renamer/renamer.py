@@ -206,7 +206,7 @@ def rename_report(old_names, new_names):
     return report
 
 
-# -------END OF FUNCTIONS
+# -----------------END OF FUNCTIONS-----------------
 
 # flag to determine if script should continually run
 processing = True
